@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: ai-wallpaper-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python ai_wallpaper_bot_v1.py"
+    envVars:
+      - key: HF_HOME
+        value: /opt/render/project/.cache
