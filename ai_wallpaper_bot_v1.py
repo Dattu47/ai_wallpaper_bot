@@ -47,7 +47,7 @@ import sys
 import json
 import random
 import time
-import schedule
+# import schedule
 from datetime import datetime
 from pathlib import Path
 
@@ -243,15 +243,15 @@ def main():
 
 
 
-def run_scheduler():
-    # Run every 6 hours (change as you like)
-    schedule.every(6).hours.do(main)
+# def run_scheduler():
+#     # Run every 6 hours (change as you like)
+#     schedule.every(6).hours.do(main)
 
-    print("AI Wallpaper Bot scheduler started. Running every 6 hours...")
+#     print("AI Wallpaper Bot scheduler started. Running every 6 hours...")
 
-    while True:
-        schedule.run_pending()
-        time.sleep(60)  # check every minute
+#     while True:
+#         schedule.run_pending()
+#         time.sleep(60)  # check every minute
 
 
 if __name__ == "__main__":
