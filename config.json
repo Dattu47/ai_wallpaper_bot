@@ -1,0 +1,14 @@
+{
+  "instagram_username": "_imaginary_vistas",
+  "instagram_password": "Salaar",
+  "model_id": "runwayml/stable-diffusion-v1-5",
+  "use_cuda": true,
+  "prompt_templates": [
+    "a dreamy night sky over snow-capped mountains, 4k wallpaper, ultra-detailed, cinematic",
+    "golden hour ocean view with soft clouds, 4k wallpaper, high detail, minimal composition",
+    "dense forest with light rays at sunrise, 4k wallpaper, ultra detailed, photorealistic"
+  ],
+  "hashtags": ["#wallpaper", "#4k", "#aesthetic", "#nature", "#mobilewallpaper"],
+  "out_folder": "assets",
+  "upscale": false
+}
