@@ -4,10 +4,7 @@
   "model_id": "runwayml/stable-diffusion-v1-5",
   "use_cuda": true,
   "prompt_templates": [
-    "a dreamy night sky over snow-capped mountains, 4k wallpaper, ultra-detailed, cinematic",
-    "golden hour ocean view with soft clouds, 4k wallpaper, high detail, minimal composition",
-    "dense forest with light rays at sunrise, 4k wallpaper, ultra detailed, photorealistic"
-  ],
+    "ultra-detailed cinematic wallpaper, a stunning fusion of nature, futuristic technology, and abstract art — combining elements of mountains, galaxies, glowing neon lights, soft gradients, and surreal fantasy landscapes; balanced composition, dreamy lighting, elegant minimalism blended with high-concept sci-fi atmosphere, rendered in 8K ultra HD, realistic textures, vibrant yet harmonious color palette, deep shadows, and glowing highlights, perfect for wallpaper or Instagram aesthetic background"],
   "hashtags": ["#wallpaper", "#4k", "#aesthetic", "#nature", "#mobilewallpaper"],
   "out_folder": "assets",
   "upscale": false
