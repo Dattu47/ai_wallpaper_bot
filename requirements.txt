@@ -3,6 +3,6 @@ diffusers
 transformers
 safetensors
 pillow
-schedule
 instagrapi
-requests
+realesrgan
+schedule

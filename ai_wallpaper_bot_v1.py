@@ -47,9 +47,10 @@ import sys
 import json
 import random
 import time
+import schedule
 from datetime import datetime
 from pathlib import Path
-import schedule
+
 
 # IMAGE AI imports
 try:
@@ -257,7 +258,7 @@ if __name__ == "__main__":
     # Uncomment one of the two options below:
     
     # 1️⃣ Run once and exit
-     main()
+    main()
 
     # 2️⃣ Run continuously on schedule
     #run_scheduler()
